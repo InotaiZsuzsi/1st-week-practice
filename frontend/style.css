@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 100vh;
+    background-color: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+
+section.bg-yellow{
+    background-color: yellow;
+}
+
+section.bg-pink{
+    background-color: pink;
+}
+
+section.bg-purple{
+    background-color: violet;
+}
+
+section.bg-blue{
+    background-color: powderblue
+}
+
+section.bg-grey{
+    background-color: grey;
+}
