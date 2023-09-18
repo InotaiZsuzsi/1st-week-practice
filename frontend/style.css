@@ -7,10 +7,6 @@
 body {
     background-color: #ffeedf;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     height: 100vh;
 }
 
@@ -24,5 +20,6 @@ button{
     color: #ffeedf;
     font-size: 200px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
     
 }
