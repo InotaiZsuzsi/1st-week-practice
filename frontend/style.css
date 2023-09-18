@@ -1,33 +1,23 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0;
 }
 
-section {
-    height: 100vh;
-    background-color: hotpink;
+body {
+    background-color: #ffeedf;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    font-style: italic;
+
+    height: 100vh;
 }
 
-section.bg-yellow{
-    background-color: yellow;
-}
+button{
+    background-color: #1c5a4e;
+    width: 240px;
+    height: 240px;
 
-section.bg-pink{
-    background-color: pink;
-}
-
-section.bg-purple{
-    background-color: violet;
-}
-
-section.bg-blue{
-    background-color: powderblue
-}
-
-section.bg-grey{
-    background-color: grey;
+    border-radius: 120px;
 }
