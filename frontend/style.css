@@ -6,8 +6,7 @@
 
 body {
     background-color: #ffeedf;
-
-    height: 100vh;
+    
 }
 
 button{
@@ -21,5 +20,14 @@ button{
     font-size: 200px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
+
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+    transform: translate(-50% , -100%);
+
+    width: 120px;
+    height: 120px;
     
 }

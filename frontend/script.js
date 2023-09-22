@@ -10,3 +10,7 @@ let z = "Csésze"
 console.log(z);
 z = "Bögre"
 console.log(z);
+
+function logger() {
+
+}
