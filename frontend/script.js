@@ -1,16 +1,9 @@
-console.log("Hello World!");
-console.log("I am Nyuszi");
-//setInterval(()=>console.log("Hello"),1000);
+console.log('loaded');
 
-let x = 10;
-let y = 5;
-//console.log(x+y);
-x + y;
-let z = "Csésze"
-console.log(z);
-z = "Bögre"
-console.log(z);
+let rootElement = document.querySelector('#root');
+//console.log(rootElement)
+//document.querySelector('#root')
 
-function logger() {
+let htmlContent = "<h2>Hello World</h2>"
 
-}
+rootElement.insertAdjacentElement('beforeend' , htmlContent)
